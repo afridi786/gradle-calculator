@@ -32,6 +32,9 @@ dependencies {
 	compile "org.springframework.data:spring-data-redis:1.8.0.RELEASE"
     compile "redis.clients:jedis:2.9.0"
 }
+war {
+    enabled = true
+}
 
 jacocoTestCoverageVerification {
      violationRules {
